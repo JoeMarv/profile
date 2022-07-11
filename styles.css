@@ -60,8 +60,7 @@ a, input, button, select, textarea {
 }
 
 .options:hover {
-    color: var(--clr-white);
-    background-color: var(--clr-desaturated-light-blue);
+    color: var(--clr-blue);
     transition: var(--transition);
 }
 
