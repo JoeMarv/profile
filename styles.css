@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --clr-blue: hsl(221, 83%, 53%);
+    --clr-very-dark-blue: hsl(242, 10%, 25%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-off-white: hsl(242, 20%, 90%);
+    --clr-desaturated-light-blue: hsl(242, 0%, 40%);
+    --ff: 'Poppins', sans-serif;
+    --transition: 0.3s ease;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: var(--ff);
+    margin: 0vw;
+    color: var(--clr-very-dark-blue);
+}
+
+h1 {
+    margin: 0vw;
+    font-weight: 700;
+    font-size: 1.6em
+}
+
+h2 {
+    margin: 0vw 0vw 2vw 0vw;
+    font-size: 1.4em
+}
+
+.body {
+    margin: 12vw 6vw 20vw 6vw
+}
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options {
+    font-size: 2rem;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    color: var(--clr-desaturated-light-blue);
+    transition: var(--transition);
+}
+
+.options ion-icon {
+    margin: 0.5vw 0vw 0vw 0vw;
+}
+
+.options:hover {
+    color: var(--clr-white);
+    background-color: var(--clr-desaturated-light-blue);
+    transition: var(--transition);
+}
+
+.main {
+    margin: 4vw 0vw;
+}
+
+.btn {
+    color: var(--clr-very-dark-blue);
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 4vw 0vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: none;
+    background-color: inherit;
+    border-radius: 1vw;
+}
+
+.btn:hover {
+    color: var(--clr-white);
+    background-color: var(--clr-very-dark-blue);
+    transition: var(--transition);
+}
+
+.btn .icon {
+    margin: 0vw 0vw 0vw 4vw;
+    font-size: 1.2rem;
+}
+
+.label {
+    margin: 0vw 0vw 0vw 6vw
+}
+
+.support-container {
+    padding: 6vw;
+    box-shadow: 1vw 2vw 4vw rgba(0, 0, 0, 0.1);
+    border-radius: 4vw;
+    margin: 4vw 0vw;
+}
+
+.explain {
+    font-size: 0.8em;
+    color: var(--clr-desaturated-light-blue);
+}
+
+.support-btns {
+    padding: 4vw 0vw 0vw 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.support-btns ion-icon {
+    font-size: 1.2em;
+    margin: 1vw 1vw 0vw 0vw
+}
+
+.chat {
+    width: 78%;
+    padding: 2vw;
+    border-radius: 3vw;
+    border: none;
+    font-weight: 400;
+    font-size: 0.9em;
+    font-family: var(--ff);
+    background-color: var(--clr-off-white);
+    color: var(--clr-desaturated-light-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.chat:hover {
+    background-color: var(--clr-very-dark-blue);
+    color: var(--clr-off-white);
+    transition: var(--transition);
+}
+
+.phone {
+    width: 20%;
+    padding: 2vw;
+    border-radius: 3vw;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9em;
+    font-family: var(--ff);
+    background-color: var(--clr-off-white);
+    color: var(--clr-desaturated-light-blue);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.phone:hover {
+    background-color: var(--clr-very-dark-blue);
+    color: var(--clr-off-white);
+    transition: var(--transition);
+}
+
+.log-out {
+    background-color: var(--clr-off-white);
+    padding: 4vw;
+    color: var(--clr-very-dark-blue);
+    text-align: center;
+    border-radius: 4vw;
+    margin: 8vw 0vw 0vw 0vw;
+    font-weight: 600;
+    font-family: var(--ff);
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.log-out:hover {
+    background-color: var(--clr-very-dark-blue);
+    color: var(--clr-off-white);
+    transition: var(--transition);
+}
+
+.nav {
+    box-shadow: 0vw -2vw 4vw rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 3vw 0vw;
+    background-color: var(--clr-white);
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--ff);
+    transition: var(--transition);
+    font-size: 0.6em;
+    font-weight: 500;
+    color: var(--clr-desaturated-light-blue);
+    background-color: inherit;
+    border: none;
+    margin: 0vw 1vw;
+    cursor: pointer;
+}
+
+
+.btn2:hover {
+    transition: var(--transition);
+    color: var(--clr-blue)
+}
+
+.btn2:active {
+    color: var(--clr-blue)
+}
+
+.btn2 ion-icon {
+    font-size: 1.4rem;
+}
