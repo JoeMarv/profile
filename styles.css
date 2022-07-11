@@ -64,6 +64,10 @@ a, input, button, select, textarea {
     transition: var(--transition);
 }
 
+.options:active {
+    color: var(--clr-blue);
+}
+
 .main {
     margin: 4vw 0vw;
 }
